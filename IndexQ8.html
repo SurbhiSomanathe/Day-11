@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthchart</title>
+    <link rel="Healthchart" href="IndexQ8.css">
+    <style>
+       table, th, tr  {
+           border: 2px solid;
+  border-collapse: collapse;
+  width: 50%;
+  height: 70%;
+  font-style: normal;
+  font-size: medium;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+th, td {
+  text-align: middle;
+  padding: 20px;
+  text-emphasis-style: arial;
+  width: 50%;
+  height:70%;
+  
+}
+h1{
+    text-align: center;
+}
+ </style>
+</head>
+<body>
+    
+    <table class="center">
+      <h1>Health Chart</h1>
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th rowspan="1">After Eating</th>
+        </tr>
+        <tr>
+<th>Minimun</th>
+<th>Maximun</th>
+<th>2 hours after eating</th>
+ </tr>
+ <tr>
+     <th>Healthy</th>
+     <th>70</th>
+     <th>100</th>
+     <th>Less than 140</th>
+ </tr>
+<tr>
+    <th>Pre-Diabetes</th>
+    <th>101</th>
+    <th>126</th>
+    <th>140 to 200</th>
+</tr>
+<tr>
+<th>Diabetes</th>
+<th>More than 126</th>
+<th>N/A</th>
+<th>More than 200</th>
+</tr>
+    </table>
+</body>
+</html>
